@@ -1,1 +1,27 @@
-node_modules
+# .gitignore
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/dist
+/.angular
+
+# misc
+.DS_Store
+.env
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# log files
+npm-debug.log*
